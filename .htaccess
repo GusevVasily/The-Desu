@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+
+<Files "config.php">
+	Deny from all
+</Files>
+<Files "game.php">
+	Deny from all
+</Files>
+<Files "ajax.php">
+	Allow from all
+</Files>

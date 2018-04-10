@@ -1,0 +1,94 @@
+@import "https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kurale|Roboto";
+*{box-sizing:border-box;padding:0;margin:0;-moz-user-select:none;-khtml-user-select:none;user-select:none}
+body,html{height:100%}
+body{font-family:tahoma;font-size:11px;overflow:hidden;height:100%;overflow:hidden;position:relative;font-family:Roboto;line-height:20px}
+.box-modal { position: relative; width: 560px; min-height: 50px; background: #fff; color: #202020; text-align: center; }
+.box-modal .content { width: 500px; margin: 25px 0 0 20px; font-size: 16px; float: left; padding: 0px; }
+.menublock{height:143px;text-align:center;background:#FCFBDF;float:left;margin-right:12px;padding:5px;box-shadow:rgba(0,0,0,.3) 0 1px 5px;color:#000;font-size:13px;transition:.2s ease-in-out;margin-bottom:10px}
+.menublock:nth-child(3) { margin-right: 0; }
+#mblock{width:166px}
+.border{color: #C65232;border:#C65232 2px solid;padding:10px;border-radius:5px;}
+.menublock h2{font-family:Kurale;text-transform:uppercase;color:#C65232;font-size:16px;margin-bottom:10px}
+.menublock:hover{cursor:pointer;box-shadow:#fff 0 0 30px}
+.menublock .disable { background: #CACABE; }
+.menu{width:712px;height:200px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;color:#fff}
+.menublock h2 img{max-width:32px;float:right}
+h1{text-align:center;margin-bottom:24px;font-family:Kurale;text-transform:uppercase;font-size:36px;text-shadow:rgba(0,0,0,.3) 0 1px 1px;color:#fff}
+.btn{margin:5px 0;outline:none;border:none;cursor:pointer;padding:10px;background:#FCFBDF;box-shadow:rgba(0,0,0,.3) 0 1px 5px;font-size:16px;font-family:Kurale;color:#C65232;text-transform:uppercase;font-weight:700;transition:all .2s ease-in-out}
+.btn:hover{box-shadow:#fff 0 0 30px}
+.width{width:100%}
+.letter{font-family:Gloria Hallelujah!important}
+.clear{clear:both}
+.bg{height:120%;width:120%;margin-left:-100px;margin-top:-100px;position:absolute;z-index:0}
+.btn .border{padding:5px;margin:-5px;}
+.bigmsg{width:600px;height:460px!important;overflow:hidden;color:#000;background:rgba(255,255,255,.8);box-shadow:rgba(255,255,255,.8) 0 0 30px 30px;border-radius:5px;font-size:20px;line-height:30px;cursor:default;z-index:2;text-align:justify;position:absolute;left:0;right:0;bottom:0;top:0;margin:auto}
+#saveblock{position:relative;padding:0;width:225px;margin-right:5px;margin-bottom:5px}
+#saveblock:nth-child(3n+3){ margin-right: 0px }
+.left{float:left;text-align:left}
+.right{float:right;text-align:right}
+#saveblock img{width:100%;height:100%;position:absolute;z-index:1;left:0;top:0}
+#saveblock .date{position:absolute;z-index:2;bottom:5px;left:5px;color:#fff}
+#saveblock .level{position:absolute;z-index:3;bottom:5px;left:155px;color:#fff}
+.selectmenu{height:300px;overflow-y:scroll;margin-bottom:15px}
+.container{width:710px;height:350px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto}
+a{color:#fff;text-decoration:none;transition:all .2s ease-in-out}
+a:hover{text-shadow:rgba(255,255,255,.3) 0 0 10px}
+::-webkit-scrollbar{width:1em;cursor:pointer}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);border:#fff 1px solid;border-radius:360px;overflow:hidden;cursor:pointer}
+::-webkit-scrollbar-thumb{background-color:#86C814;outline:1px solid slategrey;border-radius:360px;overflow:hidden;border:#fff 1px solid;cursor:pointer}
+.title{font-style:italic!important;font-size:48px;text-decoration:underline}
+.music_on{color: #00FF00;}
+.music_off{color: #FF1A00;}
+#titleSlide, #textSlide {
+    width: 40em;
+    font-size: 22px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 3s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+#page-preloader {
+    height:120%;width:120%;margin-left:-100px;margin-top:-100px;position:absolute;z-index:0;
+    background: url('../img/loading.png') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#page-preloader .spinner {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('../img/spinner.gif') no-repeat 50% 50%;
+    margin: -16px 0 0 -16px;
+    z-index: 1000;
+}
+
+.banner {
+    margin-top: 700px;
+}
+
+/*
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+*/
